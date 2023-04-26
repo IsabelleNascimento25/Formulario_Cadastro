@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' media='screen' href='cadastro.css'>
+</head>
+<script src="cadastro.js"></script>
+</head>
+<body>
+    <div id="cadastro">
+        <form method='post' action='' class="form">
+            <fieldset>
+            <h1>CADASTRO</h1>
+            <p>
+                <label for="email">email</label>
+                <br>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="nome"> nome</label>
+                <br>
+                <input type="text" id="nome" name="nome">
+            </p>
+            <p>
+                <label for="tel">Telefone</label>
+                <br>
+                <input type="tel" name="tel" id="tel" placeholder="99-99999-9999"/>
+            </p>
+            <p>
+                <label for="cpf">CPF</label>
+                <br>
+                <input type="number" name="cpf" id="cpf" placeholder="999.999.999-99"/>
+            </p>
+        </fieldset>
+        <fieldset>
+            <h2>ENDEREÇO</h2>
+            <p>
+                <label for="cep">CEP</label>
+                <br>
+                <input type="number" name="cep" id="cep" placeholder="99999-999"/>
+            </p>
+            <p>
+                <label for="estado">Estado</label>
+                <br>
+                <input type="text" name="estado" id="estado">
+            </p>
+            <p>
+                <label for="cidade">Cidade</label>
+                <br>
+                <input type="text" name="cidade" id="cidade">
+            </p>
+            <p>
+                <label for="numero"> Numero</label>
+                <br>
+                <input type="number" name="numero" id="numero">
+            </p>
+            <p>
+                <label for="rua">Rua</label>
+                <br>
+                <input type="text" name="rua" id="rua">
+            </p>
+            <p>
+                <label for="Complemento">Complemento</label>
+                <br>
+                <input type="text" name="Complemento" id="Complemento">
+            </p>
+            <p>
+                <label for="subject">Senha</label>
+                <br>
+                <input type="password" name="senha" id="senha">
+            </p>
+            <p>
+                <label for="subject">Confirme sua senha </label>
+                <br>
+                <input type="password" name="senha2" id="senha2">
+            </p>
+        </fieldset>
+        <br>
+            <button onclick="Validar()">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
